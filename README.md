@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: Block Autosquash Commits
-        uses: xt0rted/block-autosquash-commits-action@master
+        uses: wandera/block-autosquash-commits-action@master
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 ```
